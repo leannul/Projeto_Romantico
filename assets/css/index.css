@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@media screen and (max-width: 500px) {
+    .botao{
+        margin-left: -150px;
+    }
+    section{
+        font-size: 20px;
+    }
+}
+
+body{
+    background-image: url('../gif/source.gif');
+    background-size: 50px 50px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Lobster';
+    }
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+main section{
+    margin-top: 250px;
+}
+
+button{
+    position: absolute;
+    color: red;
+    background-color: yellow;
+    border: none;
+    border-radius: 20%;
+    padding: 10px 20px 10px 20px;
+}
+.but1{
+    margin: 10px 0px 0px 150px;
+}
+.but2{
+    margin: 10px 0px 0px 350px;
+    transition: 0.3s;
+}
+
+.but1:hover{
+    cursor: pointer;
+}
